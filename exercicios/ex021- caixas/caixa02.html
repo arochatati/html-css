@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping tags</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgrey;
+      margin: 0px;
+      
+    }
+    header {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    nav {
+      background-color: grey;
+      padding: 3px;
+      box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.473); /* parâmetros: deslocamento horizontal, vertical e blur */
+    }
+    nav>a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin: 20px;
+    }
+    nav>a:hover {
+      text-decoration: underline;
+    }
+    main {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px 0px;
+      box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.493);
+    }
+    article {
+      background-color: lightgrey;
+      padding: 5px;
+    }
+    article>aside {
+      background-color: darkgray;
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 4px;
+      margin: 0px;
+    }
+    footer>p {
+      margin: 0px;
+    }
+  </style>
+</head>
+<body>
+    <header> <!-- cabeçalho -->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main> <!-- conteudo principal -->
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos aliquam quia sunt maiores illum. Dolore mollitia eos, doloremque facilis, omnis nemo nostrum molestiae id vel, ratione blanditiis perferendis aut magni.</p>
+                <aside>
+                  <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer> <!-- rodapé -->
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
